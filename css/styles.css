@@ -96,7 +96,6 @@ img {
 
 .logo {
   margin-right: 76px;
-  margin-left: 156px;
 }
 
 .site-nav .link {
@@ -129,7 +128,6 @@ img {
 .adress-contacts {
   display: flex;
   gap: 40px;
-  margin-right: 156px;
 }
 
 .adress-link {
@@ -166,10 +164,13 @@ img {
   margin-right: auto;
   max-width: 496px;
   padding-top: 191px;
+  padding-bottom: 64px;
 }
 
+/* контейнер */
+
 .container {
-  width: 1440px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -179,28 +180,23 @@ img {
 /* кнопка ордер */
 
 .hero-button {
-  width: 105px;
-  height: 24px;
-  color: var(--primary-white-color);
-  padding-left: 16px 32px;
-}
-
-.btn {
-  background-color: #4d5ae5;
-  width: 169px;
-  height: 56px;
-  left: 20px;
-  top: 20px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 169px;
+  height: 56px;
   cursor: pointer;
   border-radius: 4px;
-  margin-left: 635px;
-  margin-top: 48px;
+  display: block;
+  color: var(--primary-white-color);
+  background-color: #4d5ae5;
 }
 
 .hero-button:hover,
@@ -210,9 +206,7 @@ img {
 
 /* секція 2 */
 .section-title-list {
-  width: 1128px;
-  margin: 123px 156px 120px;
-  /* padding-top: 72px; */
+  margin-top: 123px;
   display: flex;
   gap: 24px;
 }
@@ -221,6 +215,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--primary-text-color);
   padding-bottom: 8px;
   display: flex;
@@ -235,19 +230,31 @@ img {
   display: flex;
 }
 
-.title-team {
-  margin: 0;
-  padding: 0;
-}
-
-.team-text {
-  margin: 0 auto;
-}
-
 /* section 3 */
 
 .section-team {
+  /* width: 1440px; */
   margin-top: 120px;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  padding-bottom: 32px;
 }
 
 .section-title {
@@ -255,8 +262,9 @@ img {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   color: var(--primary-text-color);
+  padding-top: 120px;
   padding-bottom: 72px;
 }
 
@@ -273,7 +281,6 @@ img {
 /* section team */
 
 .title-team {
-  /* margin: 0 auto; */
   display: flex;
   gap: 24px;
 }
