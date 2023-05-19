@@ -122,6 +122,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /* контакти */
@@ -371,7 +373,8 @@ img {
   cursor: pointer;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  padding: 12px 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-buttom:hover,
