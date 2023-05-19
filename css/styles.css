@@ -375,6 +375,7 @@ img {
   border-radius: 4px;
   padding-top: 24px;
   padding-bottom: 24px;
+  padding: 12px 24px;
 }
 
 .nav-buttom:hover,
