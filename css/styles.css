@@ -263,7 +263,7 @@ img {
 .section-img-list {
   display: flex;
   gap: 24px;
-  margin-left: 156px;
+  /* margin-left: 156px; */
 }
 
 .img-list-work {
