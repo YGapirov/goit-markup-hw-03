@@ -59,7 +59,6 @@ img {
 /* Навігація */
 .logo {
   font-family: 'Raleway', sans-serif;
-  /* font-style: normal; */
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -95,6 +94,8 @@ img {
 .site-nav {
   display: flex;
   gap: 40px;
+}
+.item {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -121,7 +122,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  /* margin-bottom: 21px; */
 }
 
 /* контакти */
@@ -131,8 +131,6 @@ img {
   margin-left: auto;
 }
 .adress-contacts {
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
   display: flex;
   gap: 40px;
 }
