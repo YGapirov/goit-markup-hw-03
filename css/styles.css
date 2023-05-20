@@ -75,10 +75,9 @@ img {
 /* Header */
 
 .header {
-  padding-top: 32px;
+  
   border-bottom: 1px solid #e7e9fc;
-  padding-left: 15px;
-  padding-right: 15px;
+  
 }
 
 .header-container {
@@ -124,6 +123,7 @@ img {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 
 /* контакти */
@@ -180,7 +180,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 /* кнопка ордер */
@@ -219,8 +219,7 @@ img {
 .section-title-list {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  
 }
 .title-item {
   font-weight: 500;
@@ -290,7 +289,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  padding-top: 32px;
+  
   margin-bottom: 8px;
 }
 
@@ -300,17 +299,17 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  padding-bottom: 32px;
+  
 }
 
 .title-team {
   display: flex;
   gap: 24px;
-  margin-bottom: 72px;
+  
 }
 
 .team-list {
-  margin-bottom: 120px;
+  
   background-color: var(--primary-white-color);
   border-radius: 0px 0px 4px 4px;
 }
@@ -390,7 +389,6 @@ img {
   margin-right: auto;
   display: flex;
   gap: 24px;
-  padding-top: 96px;
   justify-content: center;
   margin-bottom: 72px;
 }
