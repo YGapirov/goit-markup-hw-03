@@ -224,6 +224,7 @@ img {
   display: flex;
   gap: 24px;
 }
+
 .title-item {
   font-weight: 500;
   font-size: 20px;
@@ -278,7 +279,6 @@ img {
 }
 
 .section-team {
-  /* margin-top: 120px; */
 }
 
 .staf-team {
