@@ -75,10 +75,7 @@ img {
 /* Header */
 
 .header {
-  padding-top: 32px;
   border-bottom: 1px solid #e7e9fc;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .header-container {
@@ -124,6 +121,7 @@ img {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 
 /* контакти */
@@ -142,6 +140,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
 }
 
 .adress-contacts .link:hover,
@@ -151,7 +150,7 @@ img {
 
 /* hero секція 1 */
 .hero {
-  /* width: 1440px; */
+  max-width: 1440px;
   height: 600px;
   left: 0px;
   top: 72px;
@@ -159,6 +158,11 @@ img {
   margin: 0 auto;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-tittle {
@@ -180,7 +184,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 /* кнопка ордер */
@@ -219,8 +223,6 @@ img {
 .section-title-list {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .title-item {
   font-weight: 500;
@@ -290,7 +292,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  padding-top: 32px;
+
   margin-bottom: 8px;
 }
 
@@ -300,17 +302,14 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  padding-bottom: 32px;
 }
 
 .title-team {
   display: flex;
   gap: 24px;
-  margin-bottom: 72px;
 }
 
 .team-list {
-  margin-bottom: 120px;
   background-color: var(--primary-white-color);
   border-radius: 0px 0px 4px 4px;
 }
@@ -390,7 +389,6 @@ img {
   margin-right: auto;
   display: flex;
   gap: 24px;
-  padding-top: 96px;
   justify-content: center;
   margin-bottom: 72px;
 }
