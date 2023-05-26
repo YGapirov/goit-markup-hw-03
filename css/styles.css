@@ -4,6 +4,7 @@
 /* h2 color: #2E2F42; */
 /* другорядний колір фона #F4F4FD; */
 /* колір логотипу веб #4D5AE5; */
+/* gfdgfdfg */
 
 :root {
   --primary-text-color: #2e2f42;
@@ -208,6 +209,7 @@ img {
   border: none;
   color: var(--primary-white-color);
   background-color: #4d5ae5;
+  border: 1px solid #000000;
 }
 
 .hero-button:hover,
@@ -279,7 +281,7 @@ img {
 }
 
 .staf-team {
-  padding: 32px 16px;
+  padding-top: 32px;
 }
 
 .team-name {
@@ -289,7 +291,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-
   margin-bottom: 8px;
 }
 
@@ -299,6 +300,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  margin-bottom: 8px;
 }
 
 .title-team {
@@ -310,11 +312,29 @@ img {
   background-color: var(--primary-white-color);
   border-radius: 0px 0px 4px 4px;
 }
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-soc-item {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 32px;
+}
+
+.team-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: block;
+}
 
 /* footer */
 .footer {
   background-color: var(--primary-text-color);
-
   padding-top: 100px;
   padding-bottom: 100px;
 }
